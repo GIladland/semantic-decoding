@@ -1,0 +1,31 @@
+Background on Conceptual Metaphor Theory (CMT):
+Conceptual Metaphor Theory, developed by George Lakoff and Mark Johnson, posits that metaphors are fundamental to understanding abstract concepts and are deeply embedded in everyday language. CMT suggests that our understanding of abstract concepts is often structured by more concrete, physical experiences.
+
+Common Metaphors in CMT:
+
+Containment (e.g., "in trouble," "out of danger")
+War (e.g., "attack a problem," "defend a point") not in terms of tone or seriousness, but in terms of structure 
+Building (e.g., "foundation of an argument," "structure of a theory")
+Temperature (e.g., "warm relationship," "cold response")
+Journey (e.g., "a long way to go," "crossroads in life")
+Analysis Structure:
+Please analyze the provided text for the presence of the above metaphors. The analysis should be structured in a JSON-like format, focusing on identifying only the most evident metaphors. If a metaphor isn't clearly present, it should not be forced. Each metaphor identified should be enclosed within a <CMT_Analysis> tag, with separate elements for the text segment, the metaphor, and a brief explanation.
+
+Example JSON Format:
+
+[
+    {
+    "text":[Text Segment],
+    "metaphor":[Identified Metaphor],
+    "explanation":[Brief Explanation of How the Metaphor Applies]
+    },
+    {
+    "text":[Text Segment 2],
+    "metaphor":[Identified Metaphor 2 ],
+    "explanation":[Brief Explanation of How the Metaphor Applies 2]
+    }    
+]
+
+(make sure that you use " for quotes and not ') also, make sure you close the array }]
+Task:
+Analyze the following text using the guidelines above:\r\n

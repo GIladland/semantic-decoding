@@ -1,0 +1,17 @@
+You have a good understanding of text's meaning, I need your help to evaluate the semantic similarity between these two texts, consider several factors for comparison of meaning:
+
+Subject Matter: Are both texts discussing similar topics or themes?
+Narrative Style: Do the texts share a similar narrative or storytelling approach?
+Purpose or Intent: Are the texts aiming to convey the same kind of message or purpose?
+Tone and Language: Do they share a similar tone or use of language?
+Contextual Details: Are specific details, characters, or events in one text mirrored or referenced in the other?
+Analysis of the Texts:
+
+
+can you find paragraphs in text1 and tex2 that seems similair in meaning (in whatever criteria you can consider), preferably parts of the texts that are aligned and are roughly at the same part of the text. write them now for me please, one next to each other, take your time.
+
+Arrange the results in the following JSON format , make the result a clean json please:
+
+{
+    "comparison_pairs" : [{"text1_excerpt": "" , "text2_excerpt" : "" , explanation: "" }, {"text1_excerpt": "" , "text2_excerpt" : "" , explanation: "" }, {"text1_excerpt": "" , "text2_excerpt" : "" , explanation: "" }] 
+}
